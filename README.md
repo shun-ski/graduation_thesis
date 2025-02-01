@@ -59,7 +59,17 @@ DETRとBLIPを統合した特徴量で画像分類
 git clone git@github.com:shun-ski/graduation_thesis.git
 ```
 
+## 画像分類結果
+| モデル名       | 正答率   |
+|-------------|---------------------------|
+| BLIP   | 61%   |
+| DETR| 43%|
+|BLIP＋DETR|77%|
+
+
 ## 開発環境
 Python：3.10.12
 
 PyTorch：2.0.1
+
+WSL：Ubuntu-22.04
